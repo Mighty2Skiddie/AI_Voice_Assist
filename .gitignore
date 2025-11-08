@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local env / secrets
+.env
+*.env
+
+# Audio + temp files
+*.mp3
+*.wav
+*.tmp
+*.m4a
+recorded_*
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
