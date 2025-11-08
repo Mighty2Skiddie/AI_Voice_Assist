@@ -1,7 +1,7 @@
 # Pranav — AI Voice Interview Bot (Gradio + OpenAI)
 
 > Demo URL: (replace this with your Hugging Face Space URL after deployment)  
-> https://huggingface.co/spaces/<your-username>/pranav-voicebot-demo
+> https://huggingface.co/spaces/ghost027/voicebot
 
 ## What this project does
 A simple voice-enabled interview bot that:
