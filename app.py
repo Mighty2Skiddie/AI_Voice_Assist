@@ -230,7 +230,7 @@ with gr.Blocks() as demo:
             assistant_out = gr.Textbox(label="Bot reply (text)", interactive=False, lines=6)
             play_audio = gr.Audio(label="Bot reply (audio)", sources="upload", type="filepath")
         with gr.Column(scale=1):
-            gr.Markdown("### Tips\n- Ask one question at a time.\n- If transcription looks wrong, try again or upload a file.\n- The bot always ends asking if you want more detail.")
+            gr.Markdown("### Tips\n- Ask one question at a time.\n- if shows no audio found click send again. \n- If transcription looks wrong, try again or upload a file.\n- The bot always ends asking if you want more detail.")
 
     def on_click_process(audio_path):
         assistant_text, transcript, tts_path = handle_voice(audio_path)
