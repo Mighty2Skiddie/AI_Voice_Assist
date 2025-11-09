@@ -60,21 +60,7 @@ If Gradio audio component errors, upgrade Gradio: pip install --upgrade "gradio>
 
 If soundfile install fails, try removing it temporarily and rely on Gradio-provided file paths.
 
-Submission
 
-Deploy the repo to Hugging Face Spaces (Gradio) and add OPENAI_API_KEY in Secrets.
-
-Paste the public Space URL in your submission email to bhumika@100x.inc. Use subject:
-GEN AI: GEN AI ROUND 1 ASSESSMENT (LINKEDIN) — Pranav
-
-Contact
-
-Pranav — [your-email@example.com
-]
-(Replace contact details above before submitting)
-
-
----
 
 ## 2 — Create files & commit (copy-paste commands)
 
